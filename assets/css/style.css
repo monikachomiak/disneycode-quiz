@@ -1,0 +1,14 @@
+/* this is the header styling*/
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #FFD700;
+}
+
+
+/* this is the body styling*/
+
+body {
+    background-color: #006e99;
+}
