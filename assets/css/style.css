@@ -12,3 +12,16 @@ header {
 body {
     background-color: #006e99;
 }
+
+.questions {
+    text-align: center;
+}
+
+.gus {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    font-size: x-small;
+}
