@@ -11,15 +11,15 @@
 <body>
 
   <!-- This is the header-->  
-    <header>
+    <header id class="header">
         <h1>Disney Quiz</h1>
-        <p>Click the button below to test your Disney knowledge!</p>
+        <p>Calling all Disney fans! Test your Disney knowledge with this simple, 3-question quiz. You'll have 10 seconds to answer each question. Click on the Start Quiz button below to get started. Good luck!</p>
         <button class="btn">START QUIZ</button>
 
     </header>
     
     <br>
-    <script src="./assets/js/script.js"></script>
+
 
     <!-- This is where the quiz questions will go-->
     <section id class="questions">
@@ -29,6 +29,11 @@
         </div>
     
     </section>
+
+    <div id="timer" input id="myInput" value="Start Quiz">
+        <button id="btn" onclick=""></button>
+        
+    </div>
 
     <br>
 
@@ -42,6 +47,8 @@
         <p>*This quiz is purely intended for fun and not affiliated with Walt Disney Co</p>
     </footer>
 
+    <script src="./assets/js/script.js"></script>
+    <script src="assets/js/questions.js"></script>
 
 </body>
 

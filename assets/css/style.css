@@ -1,9 +1,11 @@
 /* this is the header styling*/
 
-header {
+.header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: #FFD700;
+    font-size: small;
+    padding: 20%;
 }
 
 
