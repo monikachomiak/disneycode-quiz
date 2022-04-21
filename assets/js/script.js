@@ -1,4 +1,5 @@
 var timerEl = document.querySelector("#timer")
+var startbtn = document.querySelector("#startbtn")
 
 
 
@@ -32,8 +33,10 @@ var timeInterval = setInterval(function () {
     }
 },1000)
 
+
+
 }
 
-
+startbtn.onclick = startQuiz
 
 startQuiz()
