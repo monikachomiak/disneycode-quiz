@@ -1,11 +1,12 @@
 var timerEl = document.querySelector("#timer")
 var startbtn = document.querySelector("#startbtn")
-
+var currentQuestionIndex = 0
 
 
 // Timer that counts down from 10 --> change to startquiz & add nextquestion function
 function startQuiz() {
     var timeLeft = 10;
+
 
 // Intervals
 var timeInterval = setInterval(function () {
@@ -33,10 +34,26 @@ var timeInterval = setInterval(function () {
     }
 },1000)
 
-
+populateQuestions()
 
 }
 
-startbtn.onclick = startQuiz
+function populateQuestions(){
+    //This gets the currentQuestion object from the array//
+var currentQuestion = questions[currentQuestionIndex]
+console.log(currentQuestion.prompt)
 
-startQuiz()
+var promptEl = document.getElementById("prompt")
+promptEl.innerHTML = currentQuestion.prompt
+
+//Generate choices dynamically and show them on the page.
+currentQuestion.choices.forEach
+//create a button,
+//set a value for the button
+//display the button
+
+}
+
+startbtn.addEventListener("click", startQuiz)
+
+
