@@ -10,11 +10,13 @@ This quiz consists of 3 questions, which guests will have 10 seconds to correctl
 
 When a user opens the page, they will see a Disney Quiz load with a gif of Gus Gis from Cinderella at the bottom. 
 
-When a user clicks on the start quiz button, the 10 second countdown timer will begin.
+When a user clicks on the start quiz button, the 10 second countdown timer will begin. When the countdown gets to 1 second, seconds will change to second
 
 When a user clicks on the start quiz button, the first question will initiate.
 
-When a user views the page, they will find my contact information at the bottom. If they click on my email address, they will be promted to their desginated email serve to send me a message. -->
+When a user correctly identifies the answer, they will be redirected to the next question.
+
+When a user incorrectly chooses an answer, they will need to try again until they get it right.
 
 # Deploy Link
 
