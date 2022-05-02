@@ -20,11 +20,13 @@ When a user incorrectly chooses an answer, they will need to try again until the
 
 # Deploy Link
 
-WILL NEED TO INSERT LINK HERE
+https://monikachomiak.github.io/disneycode-quiz/
 
 # Screenshot
 
-SCREENSHOT OF DEPLOYED WEB PAGE WILL GO HERE
+Attached
+
+<chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=3&url=https%3A%2F%2Fmonikachomiak.github.io%2Fdisneycode-quiz%2F?>
 
 # License
 
